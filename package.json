@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i && npm run devstart",
-    "heroku-postbuild": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i"
+    "heroku-postbuild": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i",
+    "devstart": "cd application && cd server-controller && nodemon ."
   },
   "repository": {
     "type": "git",
