@@ -1,0 +1,76 @@
+.HomePage {
+}
+
+.Header {
+  display: flex;
+  gap: 35px;
+}
+
+.Header_Text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.Header_Text h1 {
+  color: #333941;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.Header_Text p {
+  line-height: 150%;
+  color: #8c8c8c;
+  text-align: justify;
+}
+
+.Header_Column {
+  flex-basis: 20%;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ListHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ListHeader_Divider {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ListHeader_Text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ListHeader_Text span {
+  font-size: 22px;
+  color: #333941;
+}
+
+.ListHeader_Text a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #3ea8ff;
+  margin-left: auto;
+}
+
+.ProjectIcon {
+  width: 20px;
+  height: auto;
+}
+
+.TaskIcon {
+  width: 22px;
+  height: 22px;
+}

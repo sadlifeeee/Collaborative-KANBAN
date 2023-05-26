@@ -1,0 +1,97 @@
+.TaskPreviewList {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.TaskPreviewList__Primary {
+  flex: 1 1 auto;
+}
+
+.TaskPreviewList__Secondary {
+  box-shadow: 0 0 5px 3px #c0c0c0;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.TaskPreviewList hr {
+  border: 1px solid #b0c3dc65;
+}
+
+.TaskPreviewList_Display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 100%;
+  overflow-y: auto;
+}
+
+.Header {
+  color: #a4acb6;
+  font-size: 14px;
+  display: flex;
+}
+
+.Header_name {
+  margin-left: 75px;
+}
+
+.Header_Priority {
+  margin-left: auto;
+}
+
+.Header_Priority__Primary {
+  margin-right: 65px;
+}
+
+.Header_Priority__Secondary {
+  margin-right: 28px;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.List__Primary {
+  padding-right: 20px;
+}
+
+.List__Secondary {
+  padding-right: 0;
+}
+
+.Item__Border {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.Item_More {
+  text-decoration: none;
+  margin-left: 75px;
+  color: #3ea8ff;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.Message {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  gap: 1 0px;
+}
+
+.Message img {
+  width: 150px;
+  height: auto;
+}
+
+.Message span {
+  font-size: 18px;
+  color: #a4acb6;
+  text-align: center;
+}

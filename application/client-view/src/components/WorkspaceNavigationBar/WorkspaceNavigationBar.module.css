@@ -1,0 +1,60 @@
+.WorkspaceNavigationBar {
+  z-index: 100;
+  box-shadow: 1px 0 5px 2px rgba(209, 209, 209, 0.575);
+}
+
+.WorkspaceNavigationBar__no_shadow {
+  z-index: 100;
+}
+
+.Main {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.Main__isProject {
+  border-bottom: 1px solid gainsboro;
+}
+
+.Main h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.NavigationContent {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 50px;
+}
+
+.Hamburger {
+  background: url("../../assets/Hamburger.svg") no-repeat center center;
+  background-size: 30px 30px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.Hamburger:hover {
+  background-color: gainsboro;
+}
+
+.Header {
+  margin-left: 20px;
+}
+
+.UserPortrait {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.Menu {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}

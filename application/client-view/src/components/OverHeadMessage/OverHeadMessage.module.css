@@ -1,0 +1,25 @@
+.OverHeadMessage {
+  padding: 5px 0;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 0px 5px 1px gainsboro;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 101;
+}
+
+.Item {
+  padding: 5px 20px;
+  transition: all 0.5s;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  z-index: 101;
+}
+
+.Item:hover {
+  background-color: rgb(241, 241, 241);
+  z-index: 101;
+}

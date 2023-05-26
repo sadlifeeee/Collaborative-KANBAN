@@ -1,0 +1,14 @@
+.Button {
+  text-decoration: none;
+  padding: 10px 40px;
+  transition: background 0.2s, border 0.2s;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Button img {
+  width: 14px;
+  height: 14px;
+}

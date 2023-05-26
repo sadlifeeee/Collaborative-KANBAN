@@ -1,0 +1,19 @@
+.RegistrationPage {
+  background: url("../../assets/RegistrationLoginBackground.svg") no-repeat
+    center fixed;
+  background-size: cover;
+  background-position-y: calc(70% - 5px);
+  min-height: 100vh;
+  padding: 0 0 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.RegistrationPage_Form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}

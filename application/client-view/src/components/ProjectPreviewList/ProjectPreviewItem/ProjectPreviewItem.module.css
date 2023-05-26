@@ -1,0 +1,70 @@
+.ProjectPreviewItem {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  overflow: hidden;
+  min-width: 208px;
+  max-width: 208px;
+  min-height: 225px;
+  max-height: 225px;
+}
+
+.ProjectPreviewItem__NewProject {
+  background: url("../../../assets/NewProject_Icon.svg") center no-repeat;
+  border: 2px #333941 dashed;
+}
+
+.ProjectPreviewItem__1 {
+  background: url("../../../assets/ProjectBG_1.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.ProjectPreviewItem__2 {
+  background: url("../../../assets/ProjectBG_2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.ProjectPreviewItem__3 {
+  background: url("../../../assets/ProjectBG_3.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.ProjectPreviewItem__active {
+  background-color: #e9e9e9;
+}
+
+.ProjectPreviewItem__inactive {
+  background-color: white;
+  transition: all 0s;
+}
+
+.Picture {
+  min-width: 175px;
+  min-height: 125px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.Title {
+  margin-left: auto;
+  margin-right: auto;
+  color: #151b26;
+  max-width: 170px;
+  text-align: center;
+}
+
+.Title__inactive {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Title__active {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "collaborative",
+  "version": "1.0.0",
+  "description": "![Landing Page](./github-assets/Collaborative.png)\r # Collaborative\r Decsription",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i && npm run devstart",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DLSU-CCAPDEV/2021T2-G16.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DLSU-CCAPDEV/2021T2-G16/issues"
+  },
+  "homepage": "https://github.com/DLSU-CCAPDEV/2021T2-G16#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+
+}
