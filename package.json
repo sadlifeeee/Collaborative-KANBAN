@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i && npm run devstart",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "devstart": "nodemon ."
+    "netlifyStart": "cd application && cd client-view && npm i && npm run netlifyBuild && cd .. && cd server-controller && npm i && npm run devstart"
   },
   "repository": {
     "type": "git",
