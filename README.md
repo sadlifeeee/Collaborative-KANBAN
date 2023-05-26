@@ -7,7 +7,7 @@ Created by @sadlifeeee & @ElliotBeatles & @thelazyorange
 Original Link: https://github.com/DLSU-CCAPDEV/2021T2-G16
 
 # Collaborative
-Return and Restored to its former glory! 
+Returned and Restored to its former glory! 
 
 COLLABORATIVE is an application meant for team collaboration projects using a Kanban Board.
 This idea is inspired directly from the Trello board, but we decided to put our own spin on it.
