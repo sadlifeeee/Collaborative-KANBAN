@@ -1,6 +1,9 @@
 ![Landing Page](./github-assets/Collaborative.png)
-## Repository copied from our DLSU CCAPDEV 2021 Github Organization
+
+Repository copied from our DLSU CCAPDEV 2021 Github Organization 
+
 Created by @sadlifeeee & @ElliotBeatles & @thelazyorange
+
 Original Link: https://github.com/DLSU-CCAPDEV/2021T2-G16
 
 # Collaborative
