@@ -4,9 +4,9 @@
   "description": "![Landing Page](./github-assets/Collaborative.png)\r # Collaborative\r Decsription",
   "main": "index.js",
   "scripts": {
-    "start": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i && npm run devstart",
+    "build": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i && npm run devstart",
     "heroku-postbuild": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i",
-    "devstart": "cd application && cd server-controller && nodemon ."
+    "start": "cd application && cd server-controller && nodemon ."
   },
   "repository": {
     "type": "git",

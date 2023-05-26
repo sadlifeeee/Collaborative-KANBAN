@@ -16,5 +16,5 @@ This idea is inspired directly from the Trello board, but we decided to put our 
 ## Run in your Local Computer
 `[ command ]` :  description 
 
-1.	`npm run start`			: 	this command will make a react production build and run the node.js server 
+1.	`npm run build`			: 	this command will make a react production build and run the node.js server 
 	
