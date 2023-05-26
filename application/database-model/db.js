@@ -5,7 +5,7 @@ dotenv.config();
 
 const client = mongodb.MongoClient;
 const url =
-  "mongodb+srv://admin:admin@collaborativedb-ccapdev.ck8cf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"; // Connected to a Remote Database
+  process.env.DB_URL; // Connected to a Remote Database
 const options = { useUnifiedTopology: true };
 
 const collaborativeDB = {
