@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd application && cd client-view && npm i && npm run build && cd .. && cd server-controller && npm i && npm run devstart",
-    "netlifyStart": "cd application && cd client-view && npm i && npm run netlifyBuild && netlify deploy --prod --dir ./build && cd .. && cd server-controller && npm i && npm run devstart"
+    "netlifyStart": "cd application && cd client-view && npm i && npm run netlifyBuild && cd .. && cd server-controller && npm i && npm run devstart && netlify deploy --prod --dir ./build"
   },
   "repository": {
     "type": "git",
