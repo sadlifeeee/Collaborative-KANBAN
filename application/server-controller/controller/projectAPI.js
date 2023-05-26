@@ -1,4 +1,4 @@
-const collaborativeDB = require("../../database-model/db");
+const collaborativeDB = require("../database/db");
 
 const projectAPI = {
   getProjects: (req, res) => {

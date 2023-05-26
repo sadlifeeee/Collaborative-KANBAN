@@ -4,8 +4,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const client = mongodb.MongoClient;
-const url =
-  process.env.DB_URL; // Connected to a Remote Database
+const db_url = process.env.DB_URL;
+
+const url = db_url; // Connected to a Remote Database
 const options = { useUnifiedTopology: true };
 
 const collaborativeDB = {

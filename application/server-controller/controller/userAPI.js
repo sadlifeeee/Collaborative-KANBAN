@@ -1,7 +1,7 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
-const collaborativeDB = require("../../database-model/db");
+const collaborativeDB = require("../database/db");
 
 const saltRounds = 10;
 
